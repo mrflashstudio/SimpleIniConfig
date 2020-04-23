@@ -20,7 +20,7 @@ namespace SimpleIniConfig
 
         public Setting(string rawLine)
         {
-            string[] split = rawLine.Split('=');
+            string[] split = rawLine.Split(new char[] { '=' }, 2);
 
             Name = split.First().Trim();
             RawValue = split.Last().Trim();
