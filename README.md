@@ -3,7 +3,7 @@ Just a simple configuration library i use across my projects.
 
 ## Usage
 ```csharp
-using SimpleIniConfig
+using SimpleIniConfig;
 
 namespace SomeNamespace
 {
